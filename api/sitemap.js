@@ -1,15 +1,9 @@
-import express from 'express';
-import path from 'path';
-
-const app = express();
-const PORT = 3000;
-
-// Dynamic Sitemap Generator using the current visiting domain
-app.get('/sitemap.xml', (req, res) => {
-  const host = req.get('host') || 'recreo-juegos.com';
+export default function handler(req, res) {
+  const host = req.headers.host || 'recreo-juegos.com';
   const protocol = (host.includes('localhost') || host.includes('127.0.0.1')) ? 'http' : 'https';
   const baseUrl = `${protocol}://${host}`;
 
+  // Use clean canonical URLs since cleanUrls is enabled in vercel.json
   const pages = [
     { loc: '', changefreq: 'weekly', priority: '1.0' },
     { loc: '2048', changefreq: 'monthly', priority: '0.8' },
@@ -50,21 +44,7 @@ app.get('/sitemap.xml', (req, res) => {
 
   xml += '</urlset>';
 
-  res.header('Content-Type', 'application/xml');
-  res.send(xml);
-});
-
-// Serve static files from the root directory
-// Automatically resolves .html extensions if omitted (e.g., /sudoku resolves to /sudoku.html)
-app.use(express.static(path.join(process.cwd()), {
-  extensions: ['html', 'htm']
-}));
-
-// Route fallback for 404/fallback
-app.get('*', (req, res) => {
-  res.sendFile(path.join(process.cwd(), 'index.html'));
-});
-
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Server is running on http://0.0.0.0:${PORT}`);
-});
+  res.setHeader('Content-Type', 'application/xml');
+  res.setHeader('Cache-Control', 's-maxage=86400, stale-while-revalidate');
+  res.status(200).send(xml);
+}
