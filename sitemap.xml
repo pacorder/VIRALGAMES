@@ -1,129 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cristoplay.com/</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>index.html</loc>
   </url>
   <url>
-    <loc>https://cristoplay.com/2048.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>2048.html</loc>
   </url>
   <url>
-    <loc>https://cristoplay.com/APNEA.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>APNEA.html</loc>
   </url>
   <url>
-    <loc>https://cristoplay.com/INHALAEXAHALA.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>INHALAEXAHALA.html</loc>
   </url>
   <url>
-    <loc>https://cristoplay.com/ahorcado.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>ahorcado.html</loc>
   </url>
   <url>
-    <loc>https://cristoplay.com/contacto.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>luces-apagadas.html</loc>
   </url>
   <url>
-    <loc>https://cristoplay.com/cookies.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>neon-racer.html</loc>
   </url>
   <url>
-    <loc>https://cristoplay.com/cube-dash.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>nonograma.html</loc>
   </url>
   <url>
-    <loc>https://cristoplay.com/luces-apagadas.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>pong-tron.html</loc>
   </url>
   <url>
-    <loc>https://cristoplay.com/neon-racer.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>puzzle-15.html</loc>
   </url>
   <url>
-    <loc>https://cristoplay.com/nonograma.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>simon.html</loc>
   </url>
   <url>
-    <loc>https://cristoplay.com/pong-tron.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>sudoku.html</loc>
   </url>
   <url>
-    <loc>https://cristoplay.com/privacidad.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>torres-hanoi.html</loc>
   </url>
   <url>
-    <loc>https://cristoplay.com/puzzle-15.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>torn-jump.html</loc>
   </url>
   <url>
-    <loc>https://cristoplay.com/simon.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>wordle.html</loc>
   </url>
   <url>
-    <loc>https://cristoplay.com/sobre-nosotros.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cristoplay.com/sudoku.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cristoplay.com/terminos.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://cristoplay.com/torres-hanoi.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cristoplay.com/tron-jump.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cristoplay.com/wordle.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>cube-dash.html</loc>
   </url>
 </urlset>

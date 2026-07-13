@@ -1,7 +1,7 @@
 {
-  "name": "recreo-juegos",
+  "name": "cristoplay-juegos",
   "version": "1.0.0",
-  "description": "RECREO • Juegos web retro, puzles y relax.",
+  "description": "CristoPlay • Juegos web retro, puzles y relax.",
   "main": "server.js",
   "type": "module",
   "scripts": {
