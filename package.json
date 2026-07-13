@@ -1,0 +1,16 @@
+{
+  "name": "cristoplay-juegos",
+  "version": "1.0.0",
+  "description": "CristoPlay • Juegos web retro, puzles y relax.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "echo 'No build step required for static site'",
+    "start": "node server.js",
+    "lint": "echo 'No lint step required'"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
