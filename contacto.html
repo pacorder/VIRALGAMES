@@ -80,10 +80,10 @@ footer{text-align:center;padding:28px 0 0;border-top:1px solid var(--pb);margin-
   <p class="subtitle">Estamos aquí para ayudarte</p>
 
   <div class="contact-cards">
-    <a href="#" id="email-contact-link" class="contact-card">
+    <a href="mailto:contacto@cristoplay.com" class="contact-card">
       <span class="cc-icon">📧</span>
       <span class="cc-label">Email</span>
-      <span id="email-contact-text" class="cc-desc">contacto@...</span>
+      <span class="cc-desc">contacto@cristoplay.com</span>
     </a>
     <a href="privacidad.html" class="contact-card">
       <span class="cc-icon">🔒</span>
@@ -166,25 +166,6 @@ function handleSubmit(e) {
     }, 3000);
   }, 1200);
 }
-
-// Dynamically set contact email based on active hostname
-(function() {
-  const host = window.location.hostname || 'recreo-juegos.com';
-  let domain = host;
-  if (domain.startsWith('www.')) {
-    domain = domain.substring(4);
-  }
-  if (domain.includes('localhost') || domain.includes('127.0.0.1') || domain.includes('run.app')) {
-    domain = 'recreo-juegos.com';
-  }
-  const email = `contacto@${domain}`;
-  const emailLink = document.getElementById('email-contact-link');
-  const emailText = document.getElementById('email-contact-text');
-  if (emailLink && emailText) {
-    emailLink.href = `mailto:${email}`;
-    emailText.textContent = email;
-  }
-})();
 </script>
 </body>
 </html>
