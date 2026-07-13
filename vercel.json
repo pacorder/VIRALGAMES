@@ -1,90 +1,13 @@
 {
-  "cleanUrls": false,
+  "cleanUrls": true,
   "trailingSlash": false,
-  "rewrites": [
+  "routes": [
     {
-      "source": "/sitemap.xml",
-      "destination": "/api/sitemap"
+      "src": "/sitemap.xml",
+      "dest": "/api/sitemap"
     },
     {
-      "source": "/2048",
-      "destination": "/2048.html"
-    },
-    {
-      "source": "/APNEA",
-      "destination": "/APNEA.html"
-    },
-    {
-      "source": "/INHALAEXAHALA",
-      "destination": "/INHALAEXAHALA.html"
-    },
-    {
-      "source": "/ahorcado",
-      "destination": "/ahorcado.html"
-    },
-    {
-      "source": "/contacto",
-      "destination": "/contacto.html"
-    },
-    {
-      "source": "/cookies",
-      "destination": "/cookies.html"
-    },
-    {
-      "source": "/cube-dash",
-      "destination": "/cube-dash.html"
-    },
-    {
-      "source": "/luces-apagadas",
-      "destination": "/luces-apagadas.html"
-    },
-    {
-      "source": "/neon-racer",
-      "destination": "/neon-racer.html"
-    },
-    {
-      "source": "/nonograma",
-      "destination": "/nonograma.html"
-    },
-    {
-      "source": "/pong-tron",
-      "destination": "/pong-tron.html"
-    },
-    {
-      "source": "/privacidad",
-      "destination": "/privacidad.html"
-    },
-    {
-      "source": "/puzzle-15",
-      "destination": "/puzzle-15.html"
-    },
-    {
-      "source": "/simon",
-      "destination": "/simon.html"
-    },
-    {
-      "source": "/sobre-nosotros",
-      "destination": "/sobre-nosotros.html"
-    },
-    {
-      "source": "/sudoku",
-      "destination": "/sudoku.html"
-    },
-    {
-      "source": "/terminos",
-      "destination": "/terminos.html"
-    },
-    {
-      "source": "/torres-hanoi",
-      "destination": "/torres-hanoi.html"
-    },
-    {
-      "source": "/tron-jump",
-      "destination": "/tron-jump.html"
-    },
-    {
-      "source": "/wordle",
-      "destination": "/wordle.html"
+      "handle": "filesystem"
     }
   ]
 }
