@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "node server.js",
-    "build": "echo 'No build step required for static site'",
+    "build": "mkdir -p dist build && cp -r *.html *.txt *.xml IMAGENES dist/ 2>/dev/null && cp -r *.html *.txt *.xml IMAGENES build/ 2>/dev/null || true",
     "start": "node server.js",
     "lint": "echo 'No lint step required'"
   },
